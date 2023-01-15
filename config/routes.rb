@@ -3,4 +3,9 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  root "daubs#index"
+
+  # Adds all the CRUD views and routings for daubs
+  resources :daubs
+
 end

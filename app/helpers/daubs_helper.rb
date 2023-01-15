@@ -1,0 +1,2 @@
+module DaubsHelper
+end
