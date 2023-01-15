@@ -1,0 +1,2 @@
+class Daub < ApplicationRecord
+end
