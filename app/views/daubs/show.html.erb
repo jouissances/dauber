@@ -1,0 +1,23 @@
+<%= format('%03d', @daub.id)[-3..-1] %>
+
+<div class="daub-header-wrapper">
+    <%= @daub.category %>
+    <%= @daub.genre %>
+</div>
+
+<h2>
+    <%= @daub.title %>
+</h2>
+
+<%= @daub.text_url %>
+<%= @daub.author %>
+<%= @daub.publication_date %>
+<%= @daub.published_by %>
+<%= @daub.image_url %>
+
+<%= simple_format @daub.body %>
+
+<div class="actions-wrapper">
+    <%= link_to "Edit", edit_daub_path(@daub), :remote => true %>
+    <%= link_to "Delete", daub_path(@daub), data: { turbo_method: :delete, turbo_confirm: "Are you sure?" } %>
+</div>

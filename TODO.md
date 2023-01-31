@@ -15,12 +15,12 @@
 ## What are Daubs?
 
 - Time capsule across the internet
-- A journal
-- A chaotic library
+- An answer song
+- A letter into the void
 
 - Daub consists of:
-    - Item (Type - Title - Link - Author - Date Published - Genre - Image (optional))
-    - Body (Date - Quote - Text - Creator) [add formatting capability]
+    - Item (Type - Title - Link - Author - Date Published - Genre - Image (optional)) - Body (cont...)
+    - (cont...) Body (Date - Quote - Text - Creator) [add formatting capability]
     - Comments [in threads]
 
 ## User Specs
